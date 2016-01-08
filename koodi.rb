@@ -1,2 +1,4 @@
 # kirjoita koodi tänne
-(1..a).inject{|x,y| x*y}
+def kertoma
+  (1..a).inject{|x,y| x*y}
+end
